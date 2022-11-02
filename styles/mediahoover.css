@@ -1,0 +1,50 @@
+.five-aptos__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;background: #1FA2FF;  
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); 
+    opacity: 0;
+    border-radius: 5px;
+    transition: all 400ms ease-out;
+} 
+.five-aptos__content h3 {
+    max-width: 200px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #fff;
+}
+.five-aptos__content span {
+    max-width: 150px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content div {
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content div img {
+    border-radius: 15px;
+}
+.five-aptos__content:hover {
+    opacity: 0.97;
+    transform: scale(1.6);
+}
+.five-aptos__content .content div img:hover {
+    transform: scale(1.1);
+    transition: all 400ms ease-out;
+}
